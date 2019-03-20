@@ -2,11 +2,13 @@
 NCAA Predictor is a project I am working on to get a better understanding of web scraping & data analysis while using Python.  I scraped the data from [https://www.sports-reference.com/cbb/](https://www.sports-reference.com/cbb/) and created the bracket (for easier result tracking) on [ESPN Tournament Challenge](http://fantasy.espn.com/tournament-challenge-bracket/2019/en/).   
 ## Predictor Results
 ### Brackets
+I created a bracket based on the teams predicted chance to win the championship.  Teams were picked to go all the way until they faced another team that had a higher chance than they did.  Below are images of a bracket with only teams that were predicted to have a probabilty of winning and another that finishes filling in the first bracket with who I personally think would win the remaining matchups.
+
 ### Table
 Table of the predicted winner mean probability, calculated over 10 test runs, and ordered by most to least probable (teams with predicted probability of 0% are ommitted): 
 
 | Team | Probability |
-|  ----- | --------|
+|  ----- | -------- |
 | Gonzaga | 58.6% |
 | Buffalo | 49.2% |
 | North Carolina | 18.9% |
