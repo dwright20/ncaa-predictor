@@ -10,7 +10,7 @@ Table of the predicted winner mean probability, calculated over 10 test runs, an
 
 | Gonzaga | Buffalo | North Carolina | Duke | Michigan State | Auburn | Virginia | Villanova | Prairie View | Murray State | Belmont | Liberty | Houston | VCU | Georgia State | Kansas | Tennesssee | Mississippi |
 |  ----- |   ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |
-| 58.6% | 49.2% | 18.9% | 17% | 6% | 4.7% | 4% | 3.4% | < 1% | < 1% | < 1% | < 1% | < 1% | < 1% | < 1% | < 1% | < 1% | < 1% |
+| 58.6 | 49.2 | 18.9 | 17 | 6 | 4.7 | 4 | 3.4 | < 1 | < 1 | < 1 | < 1 | < 1 | < 1 | < 1 | < 1 | < 1 | < 1 |
 
 ## Actual Results
 - Will update periodically as tournament is carried out
