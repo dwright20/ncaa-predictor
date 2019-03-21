@@ -1,5 +1,8 @@
 # NCAA Predictor
 NCAA Predictor is a project I am working on to get a better understanding of web scraping & data analysis while using Python.  I scraped the data from [https://www.sports-reference.com/cbb/](https://www.sports-reference.com/cbb/) and created the bracket (for easier result tracking) on [ESPN Tournament Challenge](http://fantasy.espn.com/tournament-challenge-bracket/2019/en/).   
+Code:
+- [Predictor](https://github.com/dwright20/ncaa-predictor/blob/master/PythonFiles/ncaa_predictor.py)
+- [Scraper](https://github.com/dwright20/ncaa-predictor/blob/master/PythonFiles/ncaa_scraper.py)
 ## Predictor Results
 ### Brackets
 I created a bracket based on the teams predicted chance to win the championship.  Teams were picked to go all the way until they faced another team that had a higher chance than they did.  Below is an image of a bracket I completed using the generated picks first and then filling in the remaining with my own judgement.
