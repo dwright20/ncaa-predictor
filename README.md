@@ -2,13 +2,13 @@
 NCAA Predictor is a project I am working on to get a better understanding of web scraping & data analysis while using Python.  I scraped the data from [https://www.sports-reference.com/cbb/](https://www.sports-reference.com/cbb/) and created the bracket (for easier result tracking) on [ESPN Tournament Challenge](http://fantasy.espn.com/tournament-challenge-bracket/2019/en/).  
 
 **Code**:
-- [Predictor](https://github.com/dwright20/ncaa-predictor/blob/master/PythonFiles/ncaa_predictor.py)
-- [Scraper](https://github.com/dwright20/ncaa-predictor/blob/master/PythonFiles/ncaa_scraper.py)
+- [Predictor](https://github.com/dwright20/ncaa-predictor/blob/master/PythonFiles/ncaa_predictor.py) - Python code for predicting who the tournament winner would be
+- [Scraper](https://github.com/dwright20/ncaa-predictor/blob/master/PythonFiles/ncaa_scraper.py) - Python code for scraping tournament data since 2010
 ## Predictor Results
 ### Brackets
-I created a bracket based on the teams predicted chance to win the championship.  Teams were picked to go all the way until they faced another team that had a higher chance than they did.  Below is an image of a bracket I completed using the generated picks first and then filling in the remaining with my own judgement.
+I created a bracket based on the results from a Random Forest Classification using NCAA Men's Basketball data scraped from the years 2010 - 2019.  I worked my way from the top of the results [table](https://github.com/dwright20/ncaa-predictor#table) to the bottom, choosing the team to advance until they faced a team that was higher than them on the table.  Once I finished going through the table, I used a combination of my own knowledge and anlyst predictions to fill in the remaining results.  Below is an image of the resulting bracket. 
 
-![Generated and Self]( https://github.com/dwright20/ncaa-predictor/blob/master/Brackets/generated-and-self-picks.png )
+![Completed Bracket]( https://github.com/dwright20/ncaa-predictor/blob/master/Brackets/generated-and-self-picks.png )
 ### Table
 Table of the predicted winner mean probability, calculated over 10 test runs, and ordered by most to least probable (teams with predicted probability of 0% are ommitted): 
 
