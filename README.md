@@ -10,7 +10,7 @@ I created a bracket based on the results from a Random Forest Classification usi
 
 ![Completed Bracket]( https://github.com/dwright20/ncaa-predictor/blob/master/Brackets/generated-and-self-picks.png )
 ### Table
-Table of the predicted winner mean probability, calculated over 10 test runs, and ordered by most to least probable (teams with predicted probability of 0% are ommitted): 
+The percent probability of each team to win the championship was averaged across 10 trials and are given in the table below, ordered from greatest to least probability.  Teams with a predicted probability of 0% were omitted. 
 
 | Gonzaga | Buffalo | North Carolina | Duke | Michigan State | Auburn | Virginia | Villanova | Prairie View | Murray State | Belmont | Liberty | Houston | VCU | Georgia State | Kansas | Tennesssee | Mississippi |
 |  ----- |   ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |  ----- |
