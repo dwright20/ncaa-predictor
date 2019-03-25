@@ -18,6 +18,7 @@ The percent probability of each team to win the championship was averaged across
 
 ## Actual Results
 - [Results from predictor only](https://github.com/dwright20/ncaa-predictor/blob/master/Brackets/generated-picks-ro16.png):
+
 | Ro64 | Ro32 |
 | ----- | ----- |
 | 13/16 | 8/13 |
